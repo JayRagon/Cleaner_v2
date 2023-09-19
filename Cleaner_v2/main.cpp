@@ -71,7 +71,7 @@ LRESULT CALLBACK KeyboardHookProc(int nCode, WPARAM wParam, LPARAM lParam)
                 inject(VK_CONTROL, keyup);
 
                 // inject message that we want :)
-                std::string str = "i want to do something naughty with chloe chun";
+                std::string str = "Injected Message Here!";
                 message(str);
             }
         }
